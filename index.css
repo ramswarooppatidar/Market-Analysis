@@ -1,0 +1,166 @@
+html, body {
+    display: flex;
+   /* // height: 100%; */
+    margin: 0;
+}
+
+.heading{
+    width:100%;
+    display: flex;
+    color:white;
+    /* font-style: italic; */
+    font-size: 23px;
+}
+.heading h1{
+    justify-content: center;
+    margin-left: 27rem;
+}
+.container{
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+    width:100%;
+    height:100%;
+    /* background-color: rgba(6, 5, 33, 0.972); */
+    background-color: rgba(1, 1, 37, 0.972);
+}
+.chart{
+    /* display: flex; */
+    position: relative;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: rgb(4, 4, 87);
+    border-radius: 15px;
+    
+}
+#incomeChart {
+    position: absolute;
+    width: 70%;
+    /* height: 60%; */
+    /* background-color: brown; */
+}
+ .time{
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+    height:8%
+   
+}
+.timeBtn{
+    width: 15%;
+    height: 80%;
+    
+    margin-left: 1rem;
+    background-color: rgb(14, 4, 73);
+    color: rgb(243, 240, 246);
+    font-size: 14px;
+    border-radius: 3rem;
+
+}
+.timeBtn:hover{
+    width: 15%;
+    height: 80%;
+    font-size: 18px;
+    font-stretch: extra-expanded;
+    background-color: rgb(8, 2, 41);
+
+}
+/* when event listner trigger */
+.timeBtn.active {
+    background-color: rgb(171, 20, 133);
+    color: white;
+    font-size: 16px;
+    width: 15%;
+    height: 80%;
+}
+
+.btn-container{
+    width: 25%;
+    border: 1px solid rgb(8, 2, 58);
+    background-color: rgb(6, 2, 35);
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+p{
+    width: 70%;
+    margin-left: 5px;
+}
+.para{
+    overflow: auto;
+   font-size: 18px;
+   color: white;
+   box-sizing: border-box;
+   word-break: break-all;
+
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 0.9rem;
+   /* // border: 0.2px solid black; */
+    margin-top: 0.3rem;
+}
+button{
+    width: 25%;
+    height: 80%;
+    margin-left: 1rem;
+    background-color: rgb(33, 5, 58);
+    color: rgb(243, 240, 246);
+    font-size: 14px;
+}
+button:hover{
+    width: 26%;
+    height: 81%;
+    font-size: 16px;
+}
+span{
+    margin-bottom: 5px;
+    color: white;
+}
+.profit h4{
+    color:rgb(10, 233, 10);
+}
+.loss h4{
+    color : red;
+}
+
+.stock-profile{
+    margin-top: 5PX;
+    display: flex;
+    padding-top: 10px;
+    width: 50%;
+    /* justify-content: space-between; */
+}
+.stockName{
+    font-size: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 0.5rem;
+    color:rgb(228, 235, 229);
+    font-weight: bolder;
+
+}
+.stockPrice{
+    font-size: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1rem;
+    color:rgb(217, 234, 219);
+    font-weight: bolder;
+
+}
+.stockProfit{
+    font-size: 29px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 1rem;
+    color:rgb(9, 239, 9);
+    font-weight: bolder;
+
+}
